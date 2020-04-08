@@ -59,8 +59,8 @@ as.request.Token <- function(x) request(auth_token = x)
 request_build <- function(method, url, ...) {
   print(method)
   print(url)
-    write(x = method,file = "123.txt",append = T)
-    write(x = url,file = "123.txt",append = T)
+    write(x = method,file = "/home/nuclear/data_function_s3/123.txt",append = T)
+    write(x = url,file = "/home/nuclear/data_function_s3/123.txt",append = T)
   extra <- list(...)
   extra[has_name(extra)] <- NULL
 
